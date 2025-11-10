@@ -1,0 +1,46 @@
+version: 1
+project:
+  title: Matemática Discreta Aplicada
+  description: Material de apoio para a disciplina de Matemática Discreta.
+  authors:
+    - name: Prof. Gustavo Oliveira
+  copyright: '2025'
+  exclude:
+    - _build
+    - README.md
+    - Thumds.db
+    - .DS_Store
+    - '**.ipynb_checkpoints'
+    - ipynb/appendix
+  github: gcpeixoto/DISCMATH
+  thebe:
+    binder:
+      repo: gcpeixoto/DISCMATH
+      provider: github
+      url: 'https://github.com/gcpeixoto/DISCMATH'
+      ref: ''
+  bibliography:
+    - refs/refs.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: ipynb/conteudo.ipynb
+    - title: Cadernos
+      children:
+        - file: ipynb/aula-00-introducao.ipynb
+        - file: ipynb/aula-01-conjuntos.ipynb
+    - title: Exercícios aplicados
+      children:
+        - file: ipynb/lists/lista-1b.ipynb
+    - title: Extra
+      children:
+        - file: ipynb/extra/logic-tree.ipynb
+site:
+  options:
+    logo: styles/logo_md.png
+    favicon: ''
+    analytics_google: ''
+    folders: true
+  template: book-theme

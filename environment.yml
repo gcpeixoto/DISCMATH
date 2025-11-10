@@ -1,0 +1,20 @@
+name: DISCMATH
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - pandas
+  - jupyter-book
+  - pip
+  - conda  
+  - networkx
+  - myst-parser 
+  - sphinx-book-theme
+  - pip:
+    - prettytable
+    - matplotlib-venn
+    - truth-table-generator
