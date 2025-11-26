@@ -31,6 +31,7 @@ project:
       children:
         - file: ipynb/aula-00-introducao.ipynb
         - file: ipynb/aula-01-conjuntos.ipynb
+        - file: ipynb/aula-02-logica.ipynb
     - title: Exercícios aplicados
       children:
         - file: ipynb/lists/lista-1b.ipynb
