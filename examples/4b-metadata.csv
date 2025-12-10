@@ -1,0 +1,6 @@
+Tipo de Senha,Padrão,Quantidade,Acesso
+Exclusiva A,ADM_#,20,somente administradores.
+Exclusiva B,BND_#,10,somente time de back-end
+Exclusiva C,FRT_#,10,somente time de front-end.
+Exclusiva D,DEV_#,10,somente time de devs externos.
+Isolada (Lida),FAIL_#,10,tentativas de hacking.

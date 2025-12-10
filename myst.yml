@@ -33,6 +33,7 @@ project:
         - file: ipynb/aula-01-conjuntos.ipynb
         - file: ipynb/aula-02-logica.ipynb
         - file: ipynb/aula-03-predicados.ipynb
+        - file: ipynb/aula-04-operacoes.ipynb
     - title: Exercícios aplicados
       children:
         - file: ipynb/lists/lista-1b.ipynb
