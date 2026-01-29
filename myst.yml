@@ -4,7 +4,7 @@ project:
   description: Material de apoio para a disciplina de Matemática Discreta.
   authors:
     - name: Prof. Gustavo Oliveira
-  copyright: '2025'
+  copyright: '2026'
   exclude:
     - _build
     - README.md
@@ -34,6 +34,7 @@ project:
         - file: ipynb/aula-02-logica.ipynb
         - file: ipynb/aula-03-predicados.ipynb
         - file: ipynb/aula-04-operacoes.ipynb
+        - file: ipynb/aula-05-relacoes.ipynb
     - title: Exercícios aplicados
       children:
         - file: ipynb/lists/lista-1b.ipynb
