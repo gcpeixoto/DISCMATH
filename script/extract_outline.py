@@ -21,5 +21,5 @@ def extract_outline_from_ipynb(ipynb_path, output_path=None):
 
 
 # Usage:
-file = "../ipynb/aula-07-sequencias.ipynb"
+file = "../ipynb/aula-08-acumulacao.ipynb"
 extract_outline_from_ipynb(file, 'outline.txt')

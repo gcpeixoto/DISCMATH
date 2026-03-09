@@ -37,6 +37,7 @@ project:
         - file: ipynb/aula-05-relacoes.ipynb
         - file: ipynb/aula-06-funcoes.ipynb
         - file: ipynb/aula-07-sequencias.ipynb
+        - file: ipynb/aula-08-acumulacoes.ipynb
     - title: Exercícios aplicados
       children:
         - file: ipynb/lists/lista-1b.ipynb
